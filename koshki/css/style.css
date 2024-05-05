@@ -1,0 +1,96 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Цвет фона страницы */
+  }
+  
+  section {
+    background-color: #fff7c7;
+    padding: 80px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    height: 100% ;
+    max-height: 800px ;
+    margin: 50px auto 0;
+   
+  }
+  
+  h1 {
+    color: #333333;
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  
+  p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    transition: font-size 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+
+  }
+  
+  p:hover {
+    font-size: 19px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  li{
+    margin-bottom: 20px;
+  }
+  strong{
+    font-size: 35px; 
+    padding: ;
+  }
+  .otch{
+    font-size: 18px;
+    
+  }
+
+  /* Стили для социальных иконок */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Выравниваем иконки по центру */
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 0 10px; /* Отступы между иконками */
+  }
+  
+  .social-icons li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+  }
+  .social-icons img {
+    width: 50px; /* Установите нужную ширину */
+    height: 50px; /* Установите нужную высоту */
+  }
+  
+    .logo {
+       
+        width: 100px; /* Установите нужную ширину */
+        height: 100px; /* Установите нужную высоту */
+    }
+    
+
+
+
+
+
+
+ 
+  
+  
